@@ -10,11 +10,13 @@ My Windows 10 receives the text on COM3 and displays it in [Putty](https://www.c
 
 ![Example](putty_result.jpg)
 
-## Cyclone IV Dev Board with UART TTL USB Cable Plugged nto pin 114
+## Cyclone IV Dev Board with UART TTL USB Cable Plugged into pin 114
 
 ![Pin Connected](pin_connected.jpg)
 
 Note that the white wire is connecting pin 114 on the Cyclone IV to the RXD pin on my [USB to TTL Serial Cable](https://amzn.to/3r5YbnZ).
+
+![Pin 144](pin114.jpg)
 
 ## Buttons on Cyclone IV Dev Board
 
