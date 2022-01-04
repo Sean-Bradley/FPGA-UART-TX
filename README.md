@@ -63,9 +63,10 @@ If there are bits to send, then 1 bit is sent per 5208 ticks of the clock.
 `50000000 / 5208` results in bits being sent across the wire at 9600 BAUD rate.
 
 Each letter takes 10 bits to send.
-`0` for the `START` bit,
-`8` bits for the ASCII character, but reversed
-`1` for the `STOP` bit.
+
+- `0` for the `START` bit,
+- `8` bits for the ASCII character, but reversed
+- `1` for the `STOP` bit.
 
 E.g.,
 ASCII letter **A** = `01000001`
