@@ -70,8 +70,9 @@ Each letter takes 10 bits to send.
 
 E.g.,
 ASCII letter **A** = `01000001`
+
 When bits are reversed = `10000010`
-add `START` and `STOP` bits to front and back and then it becomes `0100000101`
+add `START` and `STOP` bits are added to the front and back, then it becomes `0100000101`
 
 If all code is running, installed and devices wired correctly, then sending `0100000101` one bit at at time at a rate of 9600 BAUD results in the character `A` being written on the Putty screen.
 
@@ -84,6 +85,6 @@ In my code example, depending on which button is pressed, it sends all the bytes
 
 ## Is this a perfect solution?
 
-No. 
+It's whatever you want it to be.
 
 Read the [license](LICENSE).
